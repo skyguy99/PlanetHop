@@ -1,0 +1,36 @@
+[debug] [2017-09-18T11:34:20.345Z] ----------------------------------------------------------------------
+[debug] [2017-09-18T11:34:20.347Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-09-18T11:34:20.348Z] CLI Version:   3.10.1
+[debug] [2017-09-18T11:34:20.348Z] Platform:      darwin
+[debug] [2017-09-18T11:34:20.348Z] Node Version:  v8.2.1
+[debug] [2017-09-18T11:34:20.348Z] Time:          Mon Sep 18 2017 07:34:20 GMT-0400 (EDT)
+[debug] [2017-09-18T11:34:20.348Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-18T11:34:20.365Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-18T11:34:20.365Z] > authorizing via signed-in user
+[debug] [2017-09-18T11:34:20.367Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-18T11:34:20.367Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/sVkdn4MLcPNBwweRfNkTtpYwbEDh4aE-qh-cfKM2iA4',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Sep 18 2017 07:34:20 GMT-0400 (EDT)
+[debug] [2017-09-18T11:34:20.550Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-18T11:34:20.565Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/planethop-b319a  
+ Mon Sep 18 2017 07:34:20 GMT-0400 (EDT)
+[debug] [2017-09-18T11:34:20.995Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-18T11:34:20.996Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/planethop-b319a/tokens  
+ Mon Sep 18 2017 07:34:20 GMT-0400 (EDT)
+[debug] [2017-09-18T11:34:21.431Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/skylarthomas/PlanetHop'...
+[info] 
+[debug] [2017-09-18T11:34:21.437Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/planethop-b319a  
+ Mon Sep 18 2017 07:34:21 GMT-0400 (EDT)
+[debug] [2017-09-18T11:34:21.736Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-18T11:34:21.737Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/149329684239/clients/_:getWebAppConfig  
+ Mon Sep 18 2017 07:34:21 GMT-0400 (EDT)
+[debug] [2017-09-18T11:34:22.127Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
